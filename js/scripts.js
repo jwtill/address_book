@@ -29,6 +29,8 @@ AddressBook.prototype.deleteContact = function(id) {
   return true;
 };
 
+// Contact.prototype.update()
+
 // Business Logic for Contacts ---------
 function Contact(firstName, lastName, phoneNumber) {
   this.firstName = firstName;
